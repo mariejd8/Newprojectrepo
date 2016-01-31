@@ -1,0 +1,51 @@
+Data Products Course Project Pitch
+========================================================
+Author: Marie DeAeth
+Date: January 31, 2016
+
+Welcome to my pitch deck!
+
+(This is slide 1)  
+
+
+Slide 2
+========================================================
+
+Have you ever wanted an easy application to compare the various different correlations of the variables in the Iris dataset?
+
+Of course you have!!
+
+Well get excited friends...
+
+
+Slide 3
+========================================================
+This app is about to make your life so much easier!
+(when it comes to comparing iris variables at least. It doesn't do much else. You're still on your own for, like, a job and money and stuff.)
+
+This is some code for the plot you'll see on the next slide.
+```{r, eval=FALSE}
+data(iris)
+plot(iris$Sepal.Width, iris$Petal.Width, col = c('coral3', 'goldenrod1', 'cyan3')[iris$Species], pch=21)
+```  
+***This code was not evaluated. It's just here to make a point.***
+Slide 4
+========================================================
+An example plot of two variables from the Iris dataset
+```{r, echo=FALSE}
+data(iris)
+plot(iris$Sepal.Width, iris$Petal.Width, col = c('coral3', 'goldenrod1', 'cyan3')[iris$Species], pch=21)
+```    
+***This plot was run with code embedded in this slide. :)***
+
+Slide 5
+========================================================
+
+But the app does it all for you! 
+Here is a link to the app:
+
+[https://mariejdeaeth.shinyapps.io/DevDataProjb/](https://mariejdeaeth.shinyapps.io/DevDataProjb/)
+
+P.S. I know its a simple app, but trust me, I tried a ton of other things that were more complex which didn't quite work out. Nonetheless, still super excited about all the shiny possiblities!!!   
+  
+Have a great day!
